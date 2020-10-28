@@ -23,7 +23,7 @@
 .app-top {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(#000, #313131);
+    background: linear-gradient(#000, #353535);
 }
 
 /* nav */
