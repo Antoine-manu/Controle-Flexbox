@@ -1,0 +1,90 @@
+/* Main content */
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+
+.app-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #313131;
+}
+
+.app-nav>* {
+    flex-grow: 1;
+    height: 100%;
+}
+
+.app-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: linear-gradient(#000,#313131) !important; 
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 5%;
+    
+}
+.app-content{
+    background-color: linear-gradient(#000,#313131) !important;
+}
+.album {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+
+}
+
+.tracklist {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tracklist>* {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Main content */
+/* Footer content */
+.app-bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: #313131;
+}
+
+.app-bottom>.current {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #313131;
+}
+
+.app-bottom>.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #313131;
+}
+
+.controls>* {
+    padding-left: 2vw;
+    flex-grow: 1;
+}
+
+/* Footer content */
