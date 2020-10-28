@@ -3,10 +3,10 @@
 .app-wrapper {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: auto;
 }
-
+.app-wrapper>.app-top{
+    height: 100%;
+}
 /* nav */
 .app-nav {
     display: flex;
